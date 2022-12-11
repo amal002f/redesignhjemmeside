@@ -98,7 +98,7 @@ h1 {
   color: rgba(255, 255, 255, 0.888);
   font-size: 78px;
   text-align: center;
-  margin-top: 2%;
+  margin-top: 5%;
   grid-area: 1/1;
 }
 
@@ -199,7 +199,7 @@ p {
   place-items: center start;
   /* width: 950px; */
   aspect-ratio: 16/9;
-  padding: 0.5%;
+  padding: 4%;
 }
 
 .img1,
