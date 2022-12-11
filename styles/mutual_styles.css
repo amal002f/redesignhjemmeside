@@ -1,7 +1,6 @@
 body {
   background-color: #c6c6c6;
 }
-
 * {
   margin: 0;
   padding: 0;
@@ -24,8 +23,6 @@ nav ul {
   justify-content: space-around;
   margin-top: 20px;
 }
-
-
 h1 {
 }
 
