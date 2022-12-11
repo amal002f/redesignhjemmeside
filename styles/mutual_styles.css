@@ -2,6 +2,11 @@ body {
   background-color: #c6c6c6;
 }
 
+main {
+  max-width: 1500px;
+  width: 100%;
+}
+
 h1 {
 }
 
