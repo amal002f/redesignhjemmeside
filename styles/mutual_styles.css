@@ -2,6 +2,30 @@ body {
   background-color: #c6c6c6;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  color: rgb(255, 255, 255);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: larger;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+
 h1 {
 }
 
@@ -10,3 +34,5 @@ h2 {
 
 p {
 }
+
+
