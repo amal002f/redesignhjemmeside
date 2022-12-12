@@ -44,9 +44,11 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 25px;
+    margin-left: 60px;
+    margin-right: 60px;
   }
 }
 
 .colon1 .colon2 .colon3 .colon4 .colon5 .colon6 .colon7 .colon8 .colon9 {
-  padding: 15px;
+  padding: 10px;
 }
