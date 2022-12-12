@@ -85,6 +85,14 @@ li {
   font-family: "poppins regular";
 }
 
+body {
+  background-image: url("/billeder/mursten.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
 h1 {
   color: rgb(245, 245, 245);
   font-size: 82px;
@@ -135,19 +143,11 @@ p {
   }
 }
 
-.container {
-  display: grid;
-  place-items: center start;
-  /* width: 950px; */
-  aspect-ratio: 16/9;
-  padding: 4%;
-}
-
-.img1,
+/* .img1,
 .grid_2-2,
 .tekst {
   grid-area: 1/1;
-}
+} */
 
 .img1 {
   width: 100%;
