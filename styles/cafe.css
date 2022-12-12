@@ -62,9 +62,6 @@ a {
   font-weight: 700;
   color: #5e6b74;
 }
-a:hover {
-  color: #252d38;
-}
 
 nav {
   --less-than: 600;
@@ -101,7 +98,7 @@ p {
   color: rgb(0, 0, 0);
   /* text-align: center; */
   font-family: "lora";
-  text-align: center;
+  /* text-align: center; */
 }
 
 .grid_2-2 {
