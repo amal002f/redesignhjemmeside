@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="styles/mutual_styles.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
   </head>
   <body>
     <div class="footer">
@@ -36,7 +37,36 @@
 
       <div>
         <h1>Nyhedstilmelding</h1>
+        <section>
+          <form name="kontakt" netlify>
+            <!-- Formular-indhold -->
+            <div class="form-felt">
+              <label>
+                Fornavn
+                <input placeholder="" type="text" id="fornavn" name="fornavn" required />
+              </label>
+  
+              <div class="form-felt">
+                <label>
+                  Efternavn
+                  <input placeholder="" type="text" id="efternavn" name="efternavn" required />
+                </label>
+              </div>
+  
+              <div class="form-felt">
+                <label>
+                  E-mail
+                  <input placeholder="" type="email" id="email" name="email" required />
+                </label>
+              </div>
+  
+            <div id="button">
+              <button type="submit">Godkend</button>
+            </div>
+          </form>
+        </section>
       </div>
     </div>
+    <main>
   </body>
 </html>
