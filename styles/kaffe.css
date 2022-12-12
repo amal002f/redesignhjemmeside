@@ -17,6 +17,11 @@ img {
   max-width: 100%;
 }
 
+.map {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
 .overskrift {
   margin: 20px;
   color: black;
@@ -35,9 +40,10 @@ img {
   margin-left: 10px;
 }
 
-.map-img {
+.indhold {
   padding-left: 80px;
   padding-right: 80px;
+  margin: 20px;
 }
 
 @media (min-width: 750px) {
