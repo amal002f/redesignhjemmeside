@@ -25,12 +25,6 @@ a:hover {
   color: #252d38;
 }
 
-nav {
-  --less-than: 600;
-  --burger-lines: #000000;
-  --burger-border: #000000;
-}
-
 header {
   position: relative;
   top: 0;
