@@ -25,12 +25,6 @@ a:hover {
   color: #252d38;
 }
 
-nav {
-  --less-than: 600;
-  --burger-lines: #000000;
-  --burger-border: #000000;
-}
-
 header {
   position: relative;
   top: 0;
@@ -68,9 +62,6 @@ a {
   font-weight: 700;
   color: #5e6b74;
 }
-a:hover {
-  color: #252d38;
-}
 
 nav {
   --less-than: 600;
@@ -94,6 +85,14 @@ li {
   font-family: "poppins regular";
 }
 
+body {
+  background-image: url("/billeder/mursten.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
 h1 {
   color: rgb(245, 245, 245);
   font-size: 82px;
@@ -107,7 +106,7 @@ p {
   color: rgb(0, 0, 0);
   /* text-align: center; */
   font-family: "lora";
-  text-align: center;
+  /* text-align: center; */
 }
 
 .grid_2-2 {
@@ -144,19 +143,11 @@ p {
   }
 }
 
-.container {
-  display: grid;
-  place-items: center start;
-  /* width: 950px; */
-  aspect-ratio: 16/9;
-  padding: 4%;
-}
-
-.img1,
+/* .img1,
 .grid_2-2,
 .tekst {
   grid-area: 1/1;
-}
+} */
 
 .img1 {
   width: 100%;
