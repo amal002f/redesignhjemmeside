@@ -5,7 +5,6 @@
 }
 
 body {
-  font-family: system-ui, sans-serif;
   line-height: 1.5;
   background-color: #ffffff;
 }
@@ -18,20 +17,22 @@ img {
   max-width: 100%;
 }
 
-h1 {
+.overskrift {
   margin: 20px;
   color: black;
   font-size: 3rem;
   text-align: center;
 }
 
-p {
+.titel {
   margin-bottom: 10px;
   margin-left: 10px;
+  font-size: 1.2rem;
 }
 
 .pris {
   margin-bottom: 40px;
+  margin-left: 10px;
 }
 
 .map-img {
