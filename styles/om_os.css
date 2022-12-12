@@ -44,8 +44,8 @@ h1 {
   line-height: 1.6;
   text-align: center;
   margin-top: 5%;
-  padding-left: 300px;
-  padding-right: 300px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 @media (min-width: 700px) {
@@ -65,10 +65,14 @@ h1 {
     height: auto;
     text-align: center;
   }
-}
 
-.videoen {
-  width: 1000px;
-  height: 600px;
-  margin-top: 65px;
+  .videoen {
+    width: 1000px;
+    height: 600px;
+    margin-top: 65px;
+  }
+
+  .indhold {
+    padding: 50px;
+  }
 }
