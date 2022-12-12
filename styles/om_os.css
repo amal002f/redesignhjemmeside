@@ -31,7 +31,7 @@ body {
 
 h1 {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  color: rgb(239, 2, 2);
+  color: rgb(255, 255, 255);
   font-size: 80px;
   text-align: center;
   margin-top: 5%;
@@ -44,24 +44,26 @@ h1 {
   line-height: 1.6;
   text-align: center;
   margin-top: 5%;
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
-.billeder {
-  width: 100%;
-  height: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  flex-flow: wrap;
-  padding: 80px;
-  gap: 80px;
-  place-content: center;
-}
+@media (min-width: 700px) {
+  .billeder {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-flow: wrap;
+    padding: 100px;
+    gap: 100px;
+    place-content: center;
+  }
 
-.video {
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  margin-top: 3%;
+  .video {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 3%;
+  }
 }
