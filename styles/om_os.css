@@ -21,7 +21,7 @@ img {
   margin-top: 20px;
 } */
 
-body {
+main {
   background-image: url("../billeder/boenner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -29,7 +29,7 @@ body {
   background-attachment: fixed;
 }
 
-h1 {
+.overskrift {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   color: rgb(255, 255, 255);
   font-size: 80px;
@@ -75,4 +75,7 @@ h1 {
   .indhold {
     padding: 50px;
   }
+}
+.footer {
+  background-color: white;
 }
