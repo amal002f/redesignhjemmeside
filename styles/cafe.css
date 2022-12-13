@@ -16,7 +16,7 @@ img {
   text-align: center;
   margin-top: 2%;
   grid-area: 1/1;
-  font-family: "Bebas Neue";
+  font-family: "Bebas Neue", cursive;
   margin-top: 50px;
 }
 
@@ -25,7 +25,7 @@ img {
   font-size: 40px;
   grid-area: 1/1;
   margin: 3px;
-  font-family: "Bebas Neue";
+  font-family: "Bebas Neue", cursive;
   text-align: center;
 }
 
@@ -34,15 +34,16 @@ img {
   font-size: px;
   grid-area: 1/1;
   margin: 15px;
-  font-family: "Bebas Neue";
+  font-family: "Bebas Neue", cursive;
   text-align: center;
 }
 
-.cafe {
-  font-size: 20px;
+.tekst {
+  font-size: 19px;
   color: rgb(33, 32, 32);
   padding: 18px;
   font-family: "Heebo", sans-serif;
+  text-align: center;
 }
 
 .grid_2-2 {
