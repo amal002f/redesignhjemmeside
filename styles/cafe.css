@@ -10,7 +10,7 @@ img {
   display: block;
 }
 
-.tekst {
+.overskrift1 {
   color: #51422d;
   font-size: 80px;
   text-align: center;
@@ -24,8 +24,18 @@ img {
   color: #51412c;
   font-size: 40px;
   grid-area: 1/1;
+  margin: 3px;
+  font-family: "Bebas Neue";
+  text-align: center;
+}
+
+.overskrift3 {
+  color: #51412c;
+  font-size: px;
+  grid-area: 1/1;
   margin: 15px;
   font-family: "Bebas Neue";
+  text-align: center;
 }
 
 .cafe {
