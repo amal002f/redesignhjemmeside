@@ -38,14 +38,26 @@ main {
 }
 
 .col {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: rgb(255, 255, 255);
   font-size: 20px;
   line-height: 1.6;
   text-align: center;
   margin-top: 5%;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.underoverskrift {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 3%;
+}
+
+.tekst2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.indhold1 {
 }
 
 @media (min-width: 700px) {
@@ -55,8 +67,8 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     flex-flow: wrap;
-    padding: 100px;
-    gap: 100px;
+    padding: 80px;
+    gap: 80px;
     place-content: center;
   }
 
@@ -67,15 +79,22 @@ main {
   }
 
   .videoen {
-    width: 1000px;
-    height: 600px;
+    width: 890px;
+    height: 500px;
     margin-top: 65px;
   }
 
   .indhold {
     padding: 50px;
   }
-}
-.footer {
-  background-color: white;
+
+  .insta {
+    text-align: start;
+    margin-left: 18%;
+  }
+
+  .risteriet {
+    text-align: end;
+    margin-right: 15%;
+  }
 }
