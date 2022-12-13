@@ -77,11 +77,11 @@ form {
   display: grid;
 }
 
-.button_footer {
+button {
   background-color: rgba(188, 182, 182, 0.814);
-  padding: 4px;
-  padding-top: 200px;
+
   font-family: "Heebo", sans-serif;
+  text-align: center;
 }
 
 /* ------------------submenu----------------------------- */
