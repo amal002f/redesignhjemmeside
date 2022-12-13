@@ -17,26 +17,25 @@ img {
 }
 
 /*menu*/
-ul#menu li {
+/* ul#menu li {
   display: inline;
-}
+} */
 
-a:hover {
+/* a:hover {
   color: #252d38;
-}
+} */
 
-header {
+/* header {
   position: relative;
   top: 0;
-  /* padding: 1rem 1rem; */
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   background-color: rgb(237, 230, 222);
   font-family: "poppins";
-}
+} */
 
-header {
+/* header {
   position: sticky;
   top: 0;
   padding: 1rem 2rem;
@@ -45,9 +44,9 @@ header {
   justify-content: space-between;
   align-items: baseline;
   z-index: +1;
-}
+} */
 
-header nav ul {
+/* header nav ul {
   display: flex;
   justify-content: space-between;
   list-style: none;
@@ -56,8 +55,8 @@ header nav ul {
   padding-bottom: 0.4rem;
   gap: 30px;
   overflow-x: auto;
-}
-a {
+} */
+/* a {
   text-decoration: none;
   font-weight: 700;
   color: #5e6b74;
@@ -83,22 +82,26 @@ ul {
 
 li {
   font-family: "poppins regular";
-}
+} */
 
-main {
+/* main {
   background-image: url("/billeder/mursten.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-}
+} */
 
 h1 {
   color: rgb(32, 31, 31);
-  font-size: 82px;
-  text-align: center;
-  margin-top: 5%;
+  font-size: 18px;
+  /* text-align: center; */
+  margin-top: 4%;
+  padding-left: 90px;
+  padding-right: 90px;
   grid-area: 1/1;
+  margin-bottom: 12px;
+  font-family: "Bebas Neue";
 }
 
 h2 {
@@ -111,28 +114,41 @@ h2 {
   padding: 5px;
 }
 
+p {
+  font-size: 13px;
+  color: rgb(33, 32, 32);
+  /* text-align: center; */
+  /* text-align: center; */
+  padding: 5px;
+  /* text-align: center; */
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-bottom: 8px;
+}
+
+.tekst {
+  color: rgb(81, 66, 45);
+  font-size: 80px;
+  text-align: center;
+  margin-top: 2%;
+  grid-area: 1/1;
+  font-family: "Bebas Neue";
+}
+
 .overskrift2 {
-  color: rgb(32, 31, 31);
+  color: rgb(81, 65, 44);
   font-size: 40px;
   text-align: center;
   /* margin-top: 10%; */
   grid-area: 1/1;
   margin: 18px;
   padding: 5px;
+  font-family: "Bebas Neue";
 }
 
 .cafe {
   font-size: 22px;
-  color: rgb(236, 231, 231);
-  /* text-align: center; */
-  font-family: "lora";
-  /* text-align: center; */
-  padding: 18px;
-}
-
-p {
-  font-size: 22px;
-  color: rgb(236, 231, 231);
+  color: rgb(33, 32, 32);
   /* text-align: center; */
   font-family: "lora";
   /* text-align: center; */
