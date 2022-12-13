@@ -26,7 +26,7 @@
 .h1_index1,
 .h1_index2 {
   color: #ffffff;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: "Bebas Neue", cursive;
   text-align: center;
   font-size: 40px;
   padding-right: 2%;
@@ -37,7 +37,7 @@
   .h1_index1,
   .h1_index2 {
     color: #ffffff;
-    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-family: "Bebas Neue", cursive;
     text-align: center;
     font-size: 100px;
     padding-right: 2%;
@@ -62,8 +62,6 @@
     padding-inline: 20px;
   }
 
- 
-
   .txt1,
   .txt2,
   .txt3 {
@@ -74,10 +72,7 @@
     padding-right: 2%;
     grid-area: 1 / 1;
   }
-
 }
-
-
 
 .grid_1_1_1 {
   display: grid;
@@ -126,9 +121,8 @@
   grid-area: 1 / 1;
 }
 
-
 .img_index3 {
-    padding-bottom: 40px;
+  padding-bottom: 40px;
 }
 /* -------------------Slideshow container ----------------------*/
 
@@ -138,7 +132,6 @@
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: auto;
   position: relative;
   margin: 20px;
   padding-top: 10px;
