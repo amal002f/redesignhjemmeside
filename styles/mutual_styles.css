@@ -55,7 +55,7 @@ label,
 input,
 textarea,
 select,
-button {
+.button_footer {
   display: block;
   margin-top: 5px;
 }
