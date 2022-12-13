@@ -1,10 +1,7 @@
 /* ---------- farve variabler ---------- */
 :root {
   --h1-footer-color: rgb(81, 65, 44);
-  
 }
-
-
 
 /* --------------------------footer--------------------------------- */
 body {
@@ -90,10 +87,7 @@ form {
 
   font-family: "Heebo", sans-serif;
   text-align: center;
-  
-
 }
-
 
 /*---------------------------------menu-----------------------------*/
 
@@ -102,7 +96,6 @@ form {
   white-space: nowrap;
   padding-left: 20px;
   gap: 15px;
-
 }
 
 ul#menu li {
@@ -119,7 +112,7 @@ ul#menu li {
     font-size: 20px;
     padding-left: 10px;
     padding-right: 10px;
-    font-family:  "Heebo", sans-serif;
+    font-family: "Heebo", sans-serif;
   }
   #grid_menu {
     display: grid;
@@ -130,7 +123,6 @@ ul#menu li {
   .navbar {
     display: grid;
   }
-  
 }
 
 header {
@@ -148,7 +140,6 @@ header {
 }
 
 .logo {
-
   font-family: "Heebo", sans-serif;
   font-size: 20px;
   padding-right: 10px;
@@ -166,8 +157,6 @@ header.logo.a {
 }
 
 @media (min-width: 600px) {
- 
-
   .logo a {
     display: grid;
     justify-items: center;
@@ -188,7 +177,6 @@ header.nav.ul {
   padding-bottom: 0.4rem;
   gap: 30px;
   overflow-x: auto;
-  
 }
 
 #header-nav {
@@ -209,7 +197,6 @@ a {
 a:hover {
   color: rgb(130, 92, 15);
 }
-
 
 * {
   box-sizing: border-box;
@@ -234,8 +221,6 @@ a:hover {
     grid-row: 1;
     display: grid;
   }
-
-  
 }
 
 .menu_icons {
@@ -253,5 +238,3 @@ a:hover {
 }
 
 /* ----------------menu slut------------------------------- */
-
-
