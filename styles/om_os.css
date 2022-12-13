@@ -84,14 +84,10 @@ body {
   .indhold {
     padding: 50px;
   }
+}
 
-  .insta {
-    text-align: start;
-    margin-left: 18%;
-  }
-
-  .risteriet {
-    text-align: end;
-    margin-right: 15%;
-  }
+.insta,
+.risteriet {
+  padding-top: 20px;
+  font-size: 25px;
 }
