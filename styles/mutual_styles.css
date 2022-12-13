@@ -1,3 +1,11 @@
+/* ---------- farve variabler ---------- */
+:root {
+  --h1-footer-color: rgb(81, 65, 44);
+  
+}
+
+
+
 /* --------------------------footer--------------------------------- */
 body {
   background-color: #ffffff;
@@ -77,103 +85,15 @@ form {
   display: grid;
 }
 
-button {
+.button_footer {
   background-color: rgba(188, 182, 182, 0.814);
 
   font-family: "Heebo", sans-serif;
   text-align: center;
-}
-
-/* ------------------submenu----------------------------- */
-
-/* The navigation menu */
-.navbar {
-  /* overflow: hidden; */
-  background-color: rgba(255, 251, 251, 0);
-  display: none;
-}
-
-/* Navigation links */
-.navbar a {
-  /* float: left; */
-  font-size: 20px;
-  color: rgb(85, 45, 1);
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  white-space: nowrap;
-}
-
-/* The subnavigation menu */
-.subnav {
-  /* float: left; */
-  /* overflow: hidden;
-  padding-top: 40px;*/
-  position: relative;
-  display: grid;
-}
-
-.subnav :hover {
   
+
 }
 
-/* Subnav button */
-/* .subnav .subnavbtn {
-  font-size: 16px;
-  /*border: none;
-  outline: none;
-  color: rgb(86, 43, 0);
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: "Heebo", sans-serif;
-  margin: 0;
-}
-
-.subnavbtn {
-  border: none;
-  background-color: rgba(0, 0, 255, 0);
-} 
-
-/* Add a red background color to navigation links on hover */
-/* .navbar a:hover,
-.subnav:hover .subnavbtn {
-  background-color: rgb(221, 132, 9);
-} */
-
-
-
-
-/* Style the subnav content - positioned absolute */
-.subnav-content {
-  display: none;
-  position: absolute;
-  left: 0;
-
-  top: 30px;
-  background-color: rgb(255, 255, 255);
-  width: 100%;
-  z-index: 1;
-  padding-top: 40px;
-}
-/* Style the subnav links */
-.subnav-content a {
-  /* float: left; */
-  color: rgb(86, 43, 0);
-  background-color: rgb(255, 255, 255);
-  text-decoration: none;
-  white-space: nowrap;
-}
-
-/* Add a grey background color on hover */
-.subnav-content a:hover {
-  background-color: rgb(200, 172, 132);
-  color: white;
-}
-
-/* When you move the mouse over the subnav container, open the subnav content */
-.subnav:hover .subnav-content {
-  display: flex;
-}
 
 /*---------------------------------menu-----------------------------*/
 
@@ -199,7 +119,7 @@ ul#menu li {
     font-size: 20px;
     padding-left: 10px;
     padding-right: 10px;
-    font-family: "Times New Roman", Times, serif;
+    font-family:  "Heebo", sans-serif;
   }
   #grid_menu {
     display: grid;
@@ -290,13 +210,6 @@ a:hover {
   color: rgb(130, 92, 15);
 }
 
-/* .logo a {
-    float: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  } */
 
 * {
   box-sizing: border-box;
@@ -341,52 +254,4 @@ a:hover {
 
 /* ----------------menu slut------------------------------- */
 
-/* Dropdown Button */
-.dropbtn {
-  background-color: #3498db;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
 
-/* Dropdown button on hover & focus */
-.dropbtn:hover,
-.dropbtn:focus {
-  background-color: #2980b9;
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
-
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {
-  display: block;
-}
