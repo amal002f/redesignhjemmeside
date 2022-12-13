@@ -54,7 +54,7 @@ body {
 }
 
 .tekst2 {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Heebo", sans-serif;
 }
 
 @media (min-width: 700px) {
@@ -83,6 +83,7 @@ body {
 
   .indhold {
     padding: 50px;
+    font-family: "Heebo", sans-serif;
   }
 }
 
@@ -90,4 +91,5 @@ body {
 .risteriet {
   padding-top: 20px;
   font-size: 15px;
+  font-family: "Heebo", sans-serif;
 }
