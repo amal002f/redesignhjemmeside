@@ -29,9 +29,10 @@ img {
 }
 
 .cafe {
-  font-size: 22px;
+  font-size: 20px;
   color: rgb(33, 32, 32);
   padding: 18px;
+  font-family: "Heebo", sans-serif;
 }
 
 .grid_2-2 {
@@ -41,7 +42,7 @@ img {
   height: auto;
   display: grid;
   flex-flow: wrap;
-  padding: 40px;
+  padding: 20px;
   gap: 60px;
   place-content: center;
 }
