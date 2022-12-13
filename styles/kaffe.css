@@ -17,11 +17,13 @@ img {
   max-width: 100%;
 }
 
+/*verdenskort*/
 .map {
   padding-left: 80px;
   padding-right: 80px;
 }
 
+/*alt tekst til kaffe.html*/
 .overskrift {
   margin: 20px;
   color: black;
@@ -46,6 +48,43 @@ img {
   margin: 20px;
 }
 
+/*alt tekst til kaffe2.html*/
+.titel_kaffe2 {
+  padding-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  font-size: 1.2rem;
+}
+
+.pris_kaffe2 {
+  margin-bottom: 30px;
+  margin-left: 10px;
+}
+
+.beskrivelse {
+  margin-bottom: 15px;
+  margin-left: 10px;
+  font-size: 1rem;
+}
+
+.button {
+  border: black;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 20px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  background-color: rgb(206, 187, 160);
+}
+
+/*Billed kaffe2.html*/
+.img_kaffe2 {
+  padding-top: 20px;
+}
+
+/*grid på kaffe.html*/
 @media (min-width: 750px) {
   .kaffeside {
     display: grid;
@@ -58,4 +97,15 @@ img {
 
 .colon1 .colon2 .colon3 .colon4 .colon5 .colon6 .colon7 .colon8 .colon9 {
   padding: 10px;
+}
+
+/*grid til kaffe2.html*/
+@media (min-width: 750px) {
+  .kaffe2side {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
 }
