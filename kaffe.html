@@ -7,6 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    
 
     <title>Kaffe</title>
     <meta name="robots" content="noindex" />
@@ -14,13 +16,40 @@
   </head>
 
   <body>
-    <header>
-      <nav class="menu">
-        <ul>
-          <li><a href="index.html">Forside</a></li>
-          <li><a href="cafe.html">Café</a></li>
-          <li><a href="kaffe.html">Kaffe</a></li>
-          <li><a href="om_os.html">Om os</a></li>
+    <header id="grid_menu">
+      <div class="logo">
+        <a href="index.html"><img class="logo_img" src="billeder/maskedImage4.PNG" alt="logo" /></a>
+      </div>
+
+      <div class="menu_icons">
+        <i id="kurv" class="fa fa-shopping-basket"></i>
+        <i id="user" class="fa fa-user"></i>
+        <div id="søg">
+        <i id="serach" class="fa fa-search"></i>
+        <input id="søgefelt" type="text" class="form-input input-group-main" placeholder="Søg" name="search" required="" autocomplete="off" />
+        </div>
+      </div>
+
+      <nav id="header-nav">
+        <ul id="menu">
+          <!-- The navigation menu -->
+          <div class="navbar">
+            <div class="subnav">
+              <button class="subnavbtn"><a href="kaffe.html">Kaffe</a></button>
+              <div class="subnav-content">
+                <a  href="#">Nyristede kaffebønner</a>
+                <a href="#">Grønne/Rå kaffebønner</a>
+                <a href="#">Limited Edition Roasts</a>
+                <a href="#">Customize your coffee</a>
+              </div>
+            </div>
+            <div class="subnav">
+              <button class="subnavbtn"><a href="cafe.html">Café</a></i></button>
+            </div>
+            <div class="subnav">
+              <button class="subnavbtn"><a href="om_os.html">Om os</a></i></button>
+            </div>
+          </div>
         </ul>
       </nav>
     </header>
