@@ -30,11 +30,11 @@ main {
 }
 
 .overskrift {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   color: rgb(255, 255, 255);
   font-size: 80px;
   text-align: center;
   margin-top: 5%;
+  font-family: "Bebas Neue", cursive;
 }
 
 .col {
@@ -49,15 +49,12 @@ main {
 }
 
 .underoverskrift {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Bebas Neue", cursive;
   margin-top: 3%;
 }
 
 .tekst2 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
-
-.indhold1 {
 }
 
 @media (min-width: 700px) {
