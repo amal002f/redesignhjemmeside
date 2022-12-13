@@ -16,54 +16,38 @@
     <link rel="icon" type="image/svg+xml" href="apple-touch-icon-180x180.png" />
   </head>
   <body>
-    <!-- <header>
-      <nav id="header-nav">
-        <ul id="menu">
-          <li><a href="index.html">Forside</a></li>
-          <li><a href="cafe.html">café</a></li>
-          <li><a href="kaffe.html">Kaffe</a></li>
-          <li><a href="om_os.html">Om os</a></li>
-        </ul>
-      </nav>
-    </header> -->
 
     <header id="grid_menu">
       <div class="logo">
-        <a href="index.html"><img class="logo_img" src="billeder/maskedImage4.PNG" alt="logo" /></a>
+          <a href="index.html"><img class="logo_img logo"  src="billeder/maskedImage4.PNG" alt="logo" /></a>
       </div>
+ 
 
       <div class="menu_icons">
         <i id="kurv" class="fa fa-shopping-basket"></i>
         <i id="user" class="fa fa-user"></i>
-        <div id="søg">
+  
         <i id="serach" class="fa fa-search"></i>
-        <input id="søgefelt" type="text" class="form-input input-group-main" placeholder="Søg" name="search" required="" autocomplete="off" />
-        </div>
+        <input id="sogefelt" type="text" class="form-input input-group-main" placeholder="Søg" name="search" required="" autocomplete="off" />
+      
       </div>
 
       <nav id="header-nav">
-        <ul id="menu">
-          <!-- The navigation menu -->
-          <div class="navbar">
-            <div class="subnav">
-              <button class="subnavbtn"><a href="kaffe.html">Kaffe</a></button>
-              <div class="subnav-content">
-                <a  href="#">Nyristede kaffebønner</a>
-                <a href="#">Grønne/Rå kaffebønner</a>
-                <a href="#">Limited Edition Roasts</a>
-                <a href="#">Customize your coffee</a>
-              </div>
-            </div>
-            <div class="subnav">
-              <button class="subnavbtn"><a href="cafe.html">Café</a></i></button>
-            </div>
-            <div class="subnav">
-              <button class="subnavbtn"><a href="om_os.html">Om os</a></i></button>
-            </div>
-          </div>
+      <ul id="menu">
+            <li class="subnav">
+              <a href="kaffe.html" class="subnavbtn">Kaffe</a>
+            </li>
+            <li class="subnav">
+              <a href="cafe.html" class="subnavbtn">Café</a>
+            </li>
+            <li class="subnav">
+              <a href="om_os.html"  class="subnavbtn">Om os</a>
+            </li>
         </ul>
+        
       </nav>
     </header>
+
 
     <main>
       <div class="index1">
@@ -102,15 +86,15 @@
         <div class="slideshow-container fade">
           <!-- Full images with numbers and message Info -->
           <div class="Containers">
-            <img src="billeder/carousel1.jpg" style="width: 100%" />
+            <img alt="img" src="billeder/carousel1.jpg" style="width: 100%" />
           </div>
 
           <div class="Containers">
-            <img src="billeder/carousel2.jpg" style="width: 100%" />
+            <img alt="img" src="billeder/carousel2.jpg" style="width: 100%" />
           </div>
 
           <div class="Containers">
-            <img src="billeder/carousel3.jpg" style="width: 100%" />
+            <img alt="img" src="billeder/carousel3.jpg" style="width: 100%" />
           </div>
 
           <!-- Back and forward buttons -->
@@ -185,10 +169,10 @@
                 <button type="submit">Godkend</button>
               </div>
             </form>
+          </section>
     </footer>
-
     <script src="javascript/index.js"></script>
-    <script src="javascript/burgermenu.js"></script>
+    <!-- <script src="javascript/burgermenu.js"></script> -->
 
   </body>
 </html>
