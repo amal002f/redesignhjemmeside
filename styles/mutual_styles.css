@@ -18,13 +18,34 @@ img {
   .footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
+    gap: 5px;
+    background-color: rgb(255, 253, 248);
+    margin-bottom: 60px;
   }
+}
+
+h1 {
+  color: rgb(81, 65, 44);
+  font-size: 18px;
+  margin-top: 4%;
+  padding-left: 90px;
+  padding-right: 90px;
+  grid-area: 1/1;
+  margin-bottom: 12px;
+  font-family: "Bebas Neue";
+}
+
+p {
+  font-size: 13px;
+  color: rgb(33, 32, 32);
+  padding: 5px;
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-bottom: 8px;
 }
 
 form {
   padding: 4px;
-  /* background: hsl(264 30% 96%); */
   border-radius: 5px;
 }
 
@@ -34,41 +55,29 @@ textarea,
 select,
 button {
   display: block;
+  margin-top: 5px;
 }
 
 input {
-  width: 50%;
-}
-
-.form-felt {
-  display: grid;
+  width: 60%;
+  background-color: rgb(255, 255, 255);
 }
 
 form {
   display: grid;
-  /* gap: 1rem; */
+  padding-left: 90px;
+  padding-right: 90px;
 }
 
 .form-felt {
   display: grid;
-  gap: 10px;
 }
 
 button {
-  /* width: 20%; */
-  background-color: rgb(242, 239, 239);
-}
-
-/*
-nav ul {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  color: rgb(209, 208, 208);
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: larger;
-  justify-content: space-around;
-  margin-top: 20px;
+  background-color: rgba(188, 182, 182, 0.814);
+  padding: 4px;
+  margin-top: 8px;
+  font-family: "lora";
 }
 
 

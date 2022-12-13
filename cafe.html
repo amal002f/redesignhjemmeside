@@ -7,6 +7,11 @@
     <meta name="robots" content="noindex" />
     <link rel="stylesheet" href="styles/cafe.css" />
     <link rel="stylesheet" href="styles/mutual_styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   </head>
   <body>
     <header>
@@ -36,8 +41,8 @@
           ></iframe>
         </div>
         <div class="tekst1">
-          <h2>Kom og besøg vores kaffebar</h2>
-          <p>
+          <h2 class="overskrift2">Kom og besøg vores kaffebar</h2>
+          <p class="cafe">
             I noget tid havde vi gået med planen om at åbne en café. Vi havde dog ikke fundet det rigtige sted at åbne cafén. Men i år 2004 startede vi med at åbne cafeen inde i Studiestræde ved Rådhuspladsen. Planen var egentlig at vi gerne ville
             åbne et risteri, men vi syntes også det kunne være fedt at lave en kombination, hvor vi både havde et risteri og en kaffebar. Efterfølgende udviklede det sig skridt for skridt og nu ligger vores café på Helgolandsgade 21, 1653 København
             V.
@@ -48,7 +53,69 @@
       </div>
       <!-- </div> -->
     </main>
-    <footer>Ikke lavet endnu</footer>
+    <footer>
+      <div class="footer">
+        <div class="col-footer-1">
+          <h1>Kontakt</h1>
+          <p>Risteriet.dk Webshop</p>
+          <p>Farverland 9</p>
+          <p>2600 Glostrup</p>
+          <p>Danmark</p>
+          <p>CVR-nummer: 27926754</p>
+
+          <p>Telefonnr.: 33910045</p>
+          <p>Mobil nr.: 51932610</p>
+          <p>E-mail: kaffe@risteriet.dk</p>
+        </div>
+        <div class="col-footer-2">
+          <div>
+            <h1>Information</h1>
+            <p>Lokationer/Åbningstider</p>
+            <p>Handelsbetingelser</p>
+            <p>Abonnementsbetingelser</p>
+            <p>Den fulde guide til vores Kaffeabonnement</p>
+            <p>Gavekort & Rabatkoder</p>
+            <p>Aftenlevering med BURD Delivery</p>
+            <p>Click & Collect</p>
+            <p>Kontrol Rapporter</p>
+          </div>
+        </div>
+        <div class="col-footer-3">
+          <div>
+            <h1>Nyhedstilmelding</h1>
+            <section>
+              <form name="kontakt" netlify>
+                <!-- Formular-indhold -->
+                <div class="form-felt">
+                  <label>
+                    Fornavn
+                    <input placeholder="" type="text" id="fornavn" name="fornavn" required />
+                  </label>
+                </div>
+
+                <div class="form-felt">
+                  <label>
+                    Efternavn
+                    <input placeholder="" type="text" id="efternavn" name="efternavn" required />
+                  </label>
+                </div>
+
+                <div class="form-felt">
+                  <label>
+                    E-mail
+                    <input placeholder="" type="email" id="email" name="email" required />
+                  </label>
+                </div>
+
+                <div id="button">
+                  <button type="submit">Godkend</button>
+                </div>
+              </form>
+            </section>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script src="javascript/burgermenu.js"></script>
     <script src="javascript/login.js"></script>
   </body>
