@@ -61,6 +61,7 @@
   .img_grid3 {
     padding-inline: 20px;
   }
+<<<<<<< HEAD
 
   .txt1,
   .txt2,
@@ -72,6 +73,8 @@
     padding-right: 2%;
     grid-area: 1 / 1;
   }
+=======
+>>>>>>> ae388ccd5856b8b48b45a6acb9ce533b6dd7c9ad
 }
 
 .grid_1_1_1 {
@@ -114,9 +117,9 @@
 .txt2,
 .txt3 {
   color: #fcfcfc;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: "Bebas Neue", cursive;
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
   padding-right: 2%;
   grid-area: 1 / 1;
 }
@@ -135,11 +138,6 @@
   position: relative;
   margin: 20px;
   padding-top: 10px;
-}
-
-/* Make the images invisible by default */
-.Containers {
-  grid-template-columns: 1 / 3;
 }
 
 /* forward & Back buttons */

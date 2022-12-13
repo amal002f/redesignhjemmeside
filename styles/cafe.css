@@ -4,151 +4,45 @@
   padding: 0;
 }
 
-@font-face {
-  /* Font 1*/
-  font-family: "lora";
-  src: url("lora-variablefont_wght-webfont.woff2") format("woff2");
-}
-
 img {
   width: 100%;
   height: auto;
   display: block;
 }
 
-/*menu*/
-/* ul#menu li {
-  display: inline;
-} */
-
-/* a:hover {
-  color: #252d38;
-} */
-
-/* header {
-  position: relative;
-  top: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  background-color: rgb(237, 230, 222);
-  font-family: "poppins";
-} */
-
-/* header {
-  position: sticky;
-  top: 0;
-  padding: 1rem 2rem;
-  box-shadow: 0 12px 28px 0 rgb(0 0 0 / 30%);
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  z-index: +1;
-} */
-
-/* header nav ul {
-  display: flex;
-  justify-content: space-between;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  padding-bottom: 0.4rem;
-  gap: 30px;
-  overflow-x: auto;
-} */
-/* a {
-  text-decoration: none;
-  font-weight: 700;
-  color: #5e6b74;
-}
-
-nav {
-  --less-than: 600;
-  --burger-lines: #000000;
-  --burger-border: #000000;
-}
-
-ul {
-  display: block;
-  list-style-type: disc;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 40px;
-  font-family: "poppins regular";
-  color: rgb(245, 245, 245);
-}
-
-li {
-  font-family: "poppins regular";
-} */
-
-/* main {
-  background-image: url("/billeder/mursten.webp");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-} */
-
-h1 {
-  color: rgb(81, 65, 44);
-  font-size: 18px;
-  /* text-align: center; */
-  margin-top: 4%;
-  padding-left: 90px;
-  padding-right: 90px;
-  grid-area: 1/1;
-  margin-bottom: 12px;
-  font-family: "Bebas Neue";
-}
-
-h2 {
-  color: rgb(32, 31, 31);
-  font-size: 40px;
-  /* margin-top: 10%; */
-  grid-area: 1/1;
-  margin: 18px;
-  padding: 5px;
-}
-
-p {
-  font-size: 13px;
-  color: #212020;
-  /* text-align: center; */
-  /* text-align: center; */
-  padding: 5px;
-  /* text-align: center; */
-  padding-left: 90px;
-  padding-right: 90px;
-  padding-bottom: 8px;
-}
-
-.tekst {
+.overskrift1 {
   color: #51422d;
   font-size: 80px;
   text-align: center;
   margin-top: 2%;
   grid-area: 1/1;
   font-family: "Bebas Neue";
+  margin-top: 50px;
 }
 
 .overskrift2 {
   color: #51412c;
   font-size: 40px;
-  /* margin-top: 10%; */
+  grid-area: 1/1;
+  margin: 3px;
+  font-family: "Bebas Neue";
+  text-align: center;
+}
+
+.overskrift3 {
+  color: #51412c;
+  font-size: px;
   grid-area: 1/1;
   margin: 15px;
   font-family: "Bebas Neue";
+  text-align: center;
 }
 
 .cafe {
-  font-size: 22px;
+  font-size: 20px;
   color: rgb(33, 32, 32);
-  /* text-align: center; */
-  /* text-align: center; */
   padding: 18px;
+  font-family: "Heebo", sans-serif;
 }
 
 .grid_2-2 {
@@ -157,9 +51,8 @@ p {
   width: 100%;
   height: auto;
   display: grid;
-  /* grid-template-columns: 1fr 1fr; */
   flex-flow: wrap;
-  padding: 60px;
+  padding: 20px;
   gap: 60px;
   place-content: center;
 }
@@ -172,31 +65,15 @@ p {
     margin-block: 40px;
     padding: 5%;
   }
-  /* .grid_2-2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    place-content: center;
-  } */
 
   .p {
     max-width: 65ch;
   }
 
-  /* .grid_2-2 img {
-    align-self: stretch;
-    object-fit: cover;
-  } */
-
   .video {
     width: 100%;
   }
 }
-
-/* .img1,
-.grid_2-2,
-.tekst {
-  grid-area: 1/1;
-} */
 
 .img1 {
   width: 100%;

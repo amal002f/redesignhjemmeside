@@ -28,7 +28,7 @@ img {
 
 .h1_footer {
   color: rgb(81, 65, 44);
-  font-size: 18px;
+  font-size: 20px;
   margin-top: 4%;
   padding-left: 90px;
   padding-right: 90px;
@@ -38,17 +38,19 @@ img {
 }
 
 .p_footer {
-  font-size: 13px;
+  font-size: 15px;
   color: rgb(33, 32, 32);
   padding: 5px;
   padding-left: 90px;
   padding-right: 90px;
   padding-bottom: 8px;
+  font-family: "Heebo", sans-serif;
 }
 
 form {
   padding: 4px;
   border-radius: 5px;
+  font-family: "Heebo", sans-serif;
 }
 
 label,
@@ -75,11 +77,11 @@ form {
   display: grid;
 }
 
-.button_footer {
+button {
   background-color: rgba(188, 182, 182, 0.814);
-  padding: 4px;
-  margin-top: 8px;
-  font-family: "lora";
+
+  font-family: "Heebo", sans-serif;
+  text-align: center;
 }
 
 /* ------------------submenu----------------------------- */
@@ -123,7 +125,7 @@ form {
   color: rgb(86, 43, 0);
   padding: 14px 16px;
   background-color: inherit;
-  font-family: inherit;
+  font-family: "Heebo", sans-serif;
   margin: 0;
 }
 
@@ -188,7 +190,7 @@ ul#menu li {
   font-size: 17px;
   padding-left: 5px;
   list-style: none;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Heebo", sans-serif;
 }
 
 @media (min-width: 600px) {
@@ -226,8 +228,9 @@ header {
 }
 
 .logo {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 50px;
+
+  font-family: "Heebo", sans-serif;
+  font-size: 20px;
   padding-right: 10px;
   grid-column: 2;
   display: grid;

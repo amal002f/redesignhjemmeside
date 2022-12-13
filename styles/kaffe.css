@@ -42,12 +42,14 @@ img {
 .pris {
   margin-bottom: 40px;
   margin-left: 10px;
+  font-family: "Heebo", sans-serif;
 }
 
 .indhold {
   padding-left: 80px;
   padding-right: 80px;
   margin: 20px;
+  font-family: "Heebo", sans-serif;
 }
 
 /*alt tekst til kaffe2,3,4.html*/
@@ -62,6 +64,7 @@ img {
 .pris_kaffe2 {
   margin-bottom: 30px;
   margin-left: 10px;
+  font-family: "Heebo", sans-serif;
 }
 
 .beskrivelse1 {
@@ -75,6 +78,7 @@ img {
   margin-bottom: 15px;
   margin-left: 10px;
   font-size: 1rem;
+  font-family: "Heebo", sans-serif;
 }
 
 .button {
@@ -120,4 +124,33 @@ img {
     margin-left: 60px;
     margin-right: 60px;
   }
+}
+
+/* SOCIAL MEDIA ICON */
+
+.fa {
+  padding: 20px;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: none;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa-facebook {
+  background: rgb(116, 58, 20);
+  color: white;
+  margin: 20px;
+}
+
+.fa-instagram {
+  background: rgb(116, 58, 20);
+  color: rgb(255, 255, 255);
+  margin: 20px;
+}
+
+.icon {
+  text-align: center;
 }
