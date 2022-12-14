@@ -75,8 +75,6 @@ input {
   background-color: rgb(255, 255, 255);
 }
 
-
-
 .form-felt {
   display: grid;
 }
@@ -114,17 +112,18 @@ ul#menu li {
   font-size: 17px;
   padding-left: 5px;
   list-style: none;
-  font-family: "Heebo", sans-serif;
+  font-family: "Bebas Neue", cursive;
 }
 
 @media (min-width: 600px) {
   ul#menu li {
     /* display: inline; */
-    font-size: 20px;
+    font-size: 30px;
     padding-left: 10px;
     padding-right: 10px;
-    font-family: "Heebo", sans-serif;
+    font-family: "Bebas Neue", cursive;
   }
+
   #grid_menu {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -246,8 +245,6 @@ a:hover {
 #sogefelt {
   width: 75px;
   padding-right: 20px;
-  
 }
-
 
 /* ----------------menu slut------------------------------- */
