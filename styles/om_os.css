@@ -10,17 +10,6 @@ img {
   display: block;
 }
 
-/* nav ul {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  color: rgb(255, 255, 255);
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: larger;
-  justify-content: space-around;
-  margin-top: 20px;
-} */
-
 body {
   background-image: url("../billeder/boenner.jpg");
   background-size: cover;
@@ -37,24 +26,35 @@ body {
   font-family: "Bebas Neue", cursive;
 }
 
-.col {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  color: rgb(255, 255, 255);
-  font-size: 20px;
-  line-height: 1.6;
-  text-align: center;
-  margin-top: 5%;
-  padding-left: 200px;
-  padding-right: 200px;
+@media (max-width: 700px) {
+  .col {
+    width: 80%;
+    margin-inline: auto;
+  }
+}
+
+@media (min-width: 700px) {
+  .col {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    line-height: 1.6;
+    margin-top: 5%;
+    width: 80%;
+    margin-inline: auto;
+  }
+  .tekst2 {
+    font-family: "Heebo", sans-serif;
+    /* padding-left: 200px;
+    padding-right: 200px; */
+    color: white;
+  }
 }
 
 .underoverskrift {
   font-family: "Bebas Neue", cursive;
   margin-top: 3%;
-}
-
-.tekst2 {
-  font-family: "Heebo", sans-serif;
+  text-align: center;
+  color: white;
 }
 
 @media (min-width: 700px) {
@@ -82,9 +82,22 @@ body {
   }
 
   .indhold {
-    padding: 50px;
     font-family: "Heebo", sans-serif;
+    /* padding-left: 200px;
+    padding-right: 200px; */
+    color: white;
   }
+}
+.indhold {
+  font-family: "Heebo", sans-serif;
+  color: white;
+  line-height: 1.5;
+}
+
+.indhold1 {
+  font-family: "Heebo", sans-serif;
+  color: white;
+  line-height: 1.5;
 }
 
 .insta,
