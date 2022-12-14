@@ -157,6 +157,11 @@ ul#menu li {
   }
 }
 
+.subnavbtn {
+  color: black;
+  font-family: "Bebas Neue", cursive;
+}
+
 header {
   position: sticky;
   top: 0;
