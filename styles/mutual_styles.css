@@ -80,10 +80,16 @@ input {
 }
 
 button {
-  background-color: rgba(188, 182, 182, 0.814);
+  background-color: rgb(81, 65, 44);
   font-family: "Heebo", sans-serif;
   text-align: center;
   margin-top: 20px;
+  width: 30%;
+  color: rgb(255, 255, 255);
+}
+
+.button_footer {
+  color: white;
 }
 
 .footer_icon {
@@ -122,6 +128,10 @@ ul#menu li {
     padding-left: 10px;
     padding-right: 10px;
     font-family: "Bebas Neue", cursive;
+  }
+
+  .subnavbtn {
+    color: black;
   }
 
   #grid_menu {
