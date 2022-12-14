@@ -21,7 +21,7 @@ img {
 }
 
 /*footer*/
-@media (min-width: 750px) {
+@media (min-width: 600px) {
   .footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -30,6 +30,9 @@ img {
     padding-bottom: 40px;
     padding-top: 40px;
   }
+}
+.footer {
+  background-color: var(--background-color);
 }
 
 .h1_footer {
@@ -95,10 +98,7 @@ button {
 
 .footer_icon {
   padding-top: 24px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
   width: 50%;
-  align-items: center;
 }
 
 #fa {
@@ -107,12 +107,12 @@ button {
 }
 
 #fa1 {
-  /* padding-left: 8px; */
+  padding-left: 20px;
   color: black;
 }
 
 #fa2 {
-  /* padding-left: 9px; */
+  padding-left: 20px;
   color: black;
 }
 
