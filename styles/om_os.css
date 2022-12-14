@@ -96,29 +96,39 @@ body {
 
 /* SOCIAL MEDIA ICON */
 
-.fa {
+#fa {
   padding: 20px;
-  font-size: 40px;
+  font-size: 25px;
   text-align: center;
   text-decoration: none;
-  width: 60px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+#fa1 {
+  padding: 20px;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: none;
+  width: 70px;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
 }
 
-.fa:hover {
-  opacity: 0.7;
-}
-
 .fa-facebook {
   background: rgb(116, 58, 20);
   color: white;
-  margin-bottom: 40px;
-  margin-right: 30px;
+  margin: 20px;
 }
 
 .fa-instagram {
   background: rgb(116, 58, 20);
   color: rgb(255, 255, 255);
+  margin: 20px;
+}
+
+.icon {
+  text-align: center;
 }

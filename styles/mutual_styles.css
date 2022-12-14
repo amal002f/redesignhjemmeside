@@ -56,6 +56,9 @@ form {
   padding: 4px;
   border-radius: 5px;
   font-family: "Heebo", sans-serif;
+  display: grid;
+  padding-left: 90px;
+  padding-right: 90px;
 }
 
 label,
@@ -72,11 +75,7 @@ input {
   background-color: rgb(255, 255, 255);
 }
 
-form {
-  display: grid;
-  padding-left: 90px;
-  padding-right: 90px;
-}
+
 
 .form-felt {
   display: grid;
@@ -247,6 +246,8 @@ a:hover {
 #sogefelt {
   width: 75px;
   padding-right: 20px;
+  
 }
+
 
 /* ----------------menu slut------------------------------- */
