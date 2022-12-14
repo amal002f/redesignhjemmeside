@@ -91,15 +91,18 @@ button {
 }
 
 #fa {
-  padding-left: 10px;
+  padding-left: 1px;
+  color: black;
 }
 
 #fa1 {
-  padding-left: 10px;
+  padding-left: 8px;
+  color: black;
 }
 
 #fa2 {
-  padding-left: 10px;
+  padding-left: 9px;
+  color: black;
 }
 
 /*---------------------------------menu-----------------------------*/
