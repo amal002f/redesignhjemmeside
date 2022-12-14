@@ -89,6 +89,18 @@ button {
   margin-top: 20px;
 }
 
+.footer_icon {
+  padding-top: 24px;
+}
+
+#facebook {
+  padding-left: 10px;
+}
+
+#twitter {
+  padding-left: 10px;
+}
+
 /*---------------------------------menu-----------------------------*/
 
 #menu {
