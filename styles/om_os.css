@@ -26,6 +26,13 @@ body {
   font-family: "Bebas Neue", cursive;
 }
 
+@media (max-width: 700px) {
+  .col {
+    width: 80%;
+    margin-inline: auto;
+  }
+}
+
 @media (min-width: 700px) {
   .col {
     color: rgb(255, 255, 255);
