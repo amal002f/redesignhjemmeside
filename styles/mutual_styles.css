@@ -2,7 +2,6 @@
 :root {
   --footer-color: rgb(81, 65, 44);
   --background-color: rgb(255, 255, 255);
-
 }
 
 /* --------------------------footer--------------------------------- */
@@ -46,7 +45,7 @@ img {
 
 .p_footer {
   font-size: 15px;
-  color: var( --footer-color);
+  color: var(--footer-color);
   padding: 5px;
   padding-left: 90px;
   padding-right: 90px;
@@ -140,11 +139,11 @@ ul#menu li {
     font-size: 30px;
     padding-left: 10px;
     padding-right: 10px;
-    font-family: "Bebas Neue", cursive;
   }
 
   .subnavbtn {
     color: black;
+    font-family: "Bebas Neue", cursive;
   }
 
   #grid_menu {
