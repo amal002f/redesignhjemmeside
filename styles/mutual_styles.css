@@ -94,14 +94,25 @@ button {
 
 .footer_icon {
   padding-top: 24px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 50%;
+  align-items: center;
 }
 
-#facebook {
-  padding-left: 10px;
+#fa {
+  /* padding-left: 1px; */
+  color: black;
 }
 
-#twitter {
-  padding-left: 10px;
+#fa1 {
+  /* padding-left: 8px; */
+  color: black;
+}
+
+#fa2 {
+  /* padding-left: 9px; */
+  color: black;
 }
 
 /*---------------------------------menu-----------------------------*/
