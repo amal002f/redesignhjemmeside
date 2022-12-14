@@ -94,10 +94,7 @@ button {
 
 .footer_icon {
   padding-top: 24px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
   width: 50%;
-  align-items: center;
 }
 
 #fa {
@@ -106,12 +103,12 @@ button {
 }
 
 #fa1 {
-  /* padding-left: 8px; */
+  padding-left: 20px;
   color: black;
 }
 
 #fa2 {
-  /* padding-left: 9px; */
+  padding-left: 20px;
   color: black;
 }
 
