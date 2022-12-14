@@ -107,4 +107,6 @@ body {
   font-family: "Heebo", sans-serif;
 }
 
-/* SOCIAL MEDIA ICON */
+.footer_icon {
+  margin-left: 90px;
+}
